@@ -1,0 +1,33 @@
+.wrap{
+    width: 500px;
+    height: 800px;
+    display: flex;
+    background-color: bisque;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box{
+    box-sizing: border-box;
+    border: solid 5px white;
+}
+.widget{
+    background-color: blue;
+    width: 100%;
+    height: 30%;
+}
+.big_widgets{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+.big_widget{
+    flex: 1 1 20px;
+    height: 100%;
+    background-color: blueviolet;
+}
+.contact{
+    width: 100%;
+    height: 50%;
+    background-color: darkmagenta;
+}
