@@ -1,0 +1,37 @@
+.wrap{
+    width: 800px;
+    height: 800px;
+    display: flex;
+    background-color: bisque;
+    flex-wrap: wrap;
+}
+.border{
+    box-sizing: border-box;
+    border: solid 5px white;
+}
+.w100{
+    width: 100%;
+}
+.header{
+    background-color: blue;
+    height: 15%;
+}
+
+.menu{
+    width: 25%;
+    height: 70%;
+    background-color: lightskyblue;
+}
+.posts{
+    width: 75%;
+    height: 70%;
+}
+.post{
+    height: 50%;
+    background-color: blueviolet;
+}
+
+.footer{
+    height: 15%;
+    background-color: darkmagenta;
+}
