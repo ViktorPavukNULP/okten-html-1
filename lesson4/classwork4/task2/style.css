@@ -5,17 +5,38 @@ body{
     justify-content: center;
     flex-wrap: wrap;
 }
+.header{
+    width: 100%;
+    background: lightskyblue;
+    padding: 20px 15% 10px;
+}
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 10%;
+}
+.main{
+    width: 100%;
+    background: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 30%;
+}
 .text_content{
     width: 100%;
     justify-content: center;
     display: flex;
     margin: 10px 0;
-    color: darkblue;
+    color: #030344;
     font-family: "Arial Black";
     font-size: 16px;
     text-align: justify;
 }
-.title{
+.main1{
     width: 80%;
     border: lightskyblue solid 3px;
     border-radius: 20px;
@@ -34,14 +55,15 @@ body{
     padding: 20px;
     border: transparent solid 3px;
     border-radius: 5px;
+    cursor: pointer;
 }
 .block{
     background: #030344;
-    border-radius: 5px;
+    border-radius: 15px;
     width: 200px;
     height: 200px;
 }
-.main{
+.main2{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -61,7 +83,24 @@ body{
 .text_color_light{
     color: aliceblue;
 }
-.main>.content:hover{
+.main2>.content:hover{
     border: lightskyblue solid 3px;
+    cursor: pointer;
+}
+.text_align_end{
+    text-align: end;
+    justify-content: flex-end;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button1{
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 20px;
     cursor: pointer;
 }
