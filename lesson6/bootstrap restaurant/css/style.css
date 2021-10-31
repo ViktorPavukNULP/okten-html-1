@@ -1,0 +1,90 @@
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header {
+    height: 100vh;
+    background: url("../image/bg.png");
+    background-size: cover;
+}
+.header__top {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-fluid img{
+    width: 20px;
+}
+.header__menu{
+    display: flex;
+    align-items: center;
+}
+nav {
+    border-right: 2px solid white;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+.header__phone{
+    width: 155px;
+    margin: 0 20px;
+}
+.header__phone img{
+    width: 20px;
+}
+button{
+    width: 150px;
+    height: 50px;
+}
+.bg__orange{
+    background: #FF7400;
+}
+.header__title {
+    margin-top: 160px;
+    color: #D67E35;
+    font-weight: normal;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 160px;
+}
+
+.header__title p {
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.header__title p::before,
+.header__title p::after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    background: #C4C4C4;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    margin: 20px;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    font-size: 26px;
+    line-height: 30px;
+}
+.card img{
+    width: 80px;
+}
+.card span{
+    color: rgb(197, 156, 102);
+}
