@@ -1,7 +1,11 @@
+body {
+    line-height: 1;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Tinos', serif;
+}
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
 }
 .header {
     height: 100vh;
@@ -14,6 +18,9 @@
     justify-content: space-between;
     align-items: center;
 }
+#logo{
+    width: 100px;
+}
 .container-fluid img{
     width: 20px;
 }
@@ -21,13 +28,13 @@
     display: flex;
     align-items: center;
 }
-nav {
-    border-right: 2px solid white;
-    margin-right: 20px;
-    padding-right: 20px;
-}
+/*nav {*/
+
+/*}*/
 .header__phone{
-    width: 155px;
+    border-left: 2px solid white;
+    padding-left: 20px;
+    width: 180px;
     margin: 0 20px;
 }
 .header__phone img{
@@ -52,13 +59,25 @@ button{
     margin-bottom: 160px;
 }
 
+.header__title h2 {
+    font-size: 50px;
+    line-height: 57px;
+    margin-left: 24px;
+    color: #D67E35;
+}
+
+.header__title h1 {
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;
+}
+
 .header__title p {
     font-size: 18px;
     line-height: 25px;
     display: flex;
     align-items: center;
-    margin-top: 12px;
-    margin-bottom: 20px;
+    margin: 12px 5px 20px 5px;
     color: white;
 }
 
@@ -69,22 +88,45 @@ button{
     width: 61px;
     height: 2px;
     background: #C4C4C4;
+    margin: 0 10px;
 }
 .main{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: -107px;
+    height: 700px;
 }
 .card{
-    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 31px;
     align-items: center;
     padding: 20px;
     text-align: center;
-    font-size: 26px;
-    line-height: 30px;
+    height: 328px;
+    box-shadow: 5px 5px 30px 5px black;
+    box-sizing: border-box;
 }
 .card img{
     width: 80px;
 }
 .card span{
     color: rgb(197, 156, 102);
+}
+
+@media screen and (max-width: 576px){
+    .header__title h2 {
+        font-size: 30px;
+        line-height: 34px;
+        margin: 0;
+
+    }
+    .header__title h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header__phone{
+        display: none;
+    }
 }
