@@ -81,4 +81,7 @@
     .footer-block{
         max-width: 100%;
     }
+    .footer-contact-adres{
+        flex-direction: column;
+    }
 }

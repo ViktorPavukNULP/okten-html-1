@@ -313,6 +313,9 @@ button{
 .footer-block{
     max-width: 15vw;
 }
+.footer-contact-adres{
+    display: flex;
+}
 .footer-block h5{
     font-size: 18px;
     font-weight: 500;
