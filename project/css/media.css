@@ -1,0 +1,84 @@
+@media screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+    .phone-menu{
+        display: flex;
+        position: fixed;
+        bottom: 0px;
+    }
+    .logo{
+        justify-content: space-between;
+    }
+    .logo-blocks{
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+    .logo-block{
+        max-width: 100%;
+        display: none;
+    }
+    .header button{
+        padding: 10px 7px;
+    }
+    .button-text{
+        display: none;
+    }
+    .input-group img{
+        display: block;
+    }
+    .catalog-nav{
+        display: none;
+    }
+    .carousel-discount{
+        flex-direction: column;
+    }
+    .carousel-item{
+        padding: 15px;
+    }
+    .carousel img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .carousel button{
+        padding: 10px 24px;
+    }
+    .discounts{
+        display: flex;
+        overflow-x: scroll;
+    }
+    .triple,
+    .buttons {
+        overflow-x: scroll;
+    }
+    .triple-block{
+        max-width: 100%;
+    }
+    .good-image img{
+        width: 100%;
+        object-fit: fill;
+    }
+    .good-block{
+        max-width: 50%;
+    }
+    .good-block button{
+        padding: 5px 10px;
+    }
+    .good-stats{
+        display: none;
+    }
+    .all-news{
+        flex-direction: column;
+    }
+    .news-circle-line,
+    .news-line,
+    .circle{
+        display: none;
+    }
+    .footer-content{
+        flex-direction: column;
+    }
+    .footer-block{
+        max-width: 100%;
+    }
+}

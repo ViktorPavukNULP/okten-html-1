@@ -6,6 +6,20 @@ body{
     line-height: 16px;
     letter-spacing: 0em;
 }
+.phone-menu{
+    width: 100%;
+    display: none;
+    background: white;
+    justify-content: space-around;
+    z-index: 10;
+}
+.phone-block{
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 10px;
+}
 .navbar{
     padding: 0;
     text-align: left;
@@ -21,13 +35,22 @@ body{
     margin-bottom: 30px;
 }
 .logo{
+    justify-content: space-between;
+    align-items: center;
     margin: 25px 0;
 }
 .catalog{
     column-gap: 30px;
 }
+.logo-blocks{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .logo-block{
-    max-width: 20%;
+    display: flex;
+    max-width: 15vw;
     column-gap: 10px;
     align-items: center;
 }
@@ -44,6 +67,7 @@ body{
     column-gap: 8px;
 }
 .logo-whatsapp img,
+.phone-block img,
 .catalog-info img,
 .logo-block img,
 .discount img{
@@ -58,7 +82,11 @@ button{
 .input-group{
     max-width: 650px;
 }
+.input-group img{
+    display: none;
+}
 .catalog-nav{
+    display: flex;
     min-width: 461px;
 }
 .catalog-info{
@@ -71,6 +99,9 @@ button{
 }
 .font-size-12px{
     font-size: 12px;
+}
+.carousel{
+    margin-bottom: 15px;
 }
 .carousel-item {
     background: url("../image/bg_avt.png") no-repeat center/cover;
@@ -144,7 +175,7 @@ button{
     margin: 70px 0;
 }
 .triple-block {
-    width: 33%;
+    max-width: 33%;
     background: #FFFFFF;
     display: flex;
     border: 1px solid #E1E5F8;
@@ -183,6 +214,7 @@ button{
 }
 .good-block{
     padding: 20px 10px;
+    box-sizing: border-box;
 }
 .good-rating{
     color: #FFB800;

@@ -80,7 +80,7 @@
 
 <div class="header">
     <div class="container">
-        <div class="logo d-flex justify-content-between align-items-center">
+        <div class="logo d-flex">
             <div class="logo-block d-flex">
                 <img src="image/logo.png" alt="">
                 <div class="logo-text">
@@ -89,33 +89,39 @@
                     для АКПП
                 </div>
             </div>
-            <div class="logo-block d-flex">
-                <img src="image/time.png" alt="time">
-                Мы работаем: будни - 9:00-21:00
-                сб. - 10:00-15:00
-            </div>
-            <div class="logo-block d-flex">
-                <img src="image/location2.png" alt="location">
-                Невский пр-т, д. 45
-            </div>
-            <div class="logo-block logo-whatsapp">
-                <img src="image/whatsapp.png" alt="whatsapp">
-                Напишите нам в WhatsApp
-            </div>
-            <div class="logo-block">
-                <h5>+7 383 291 92 86</h5>
-                <a href="#"><p>форма обратной связи</p></a>
+            <div class="logo-blocks">
+                <div class="logo-block">
+                    <img src="image/time.png" alt="time">
+                    Мы работаем: будни - 9:00-21:00
+                    сб. - 10:00-15:00
+                </div>
+                <div class="logo-block">
+                    <img src="image/location2.png" alt="location">
+                    Невский пр-т, д. 45
+                </div>
+                <div class="logo-block logo-whatsapp d-block">
+                    <img src="image/whatsapp.png" alt="whatsapp">
+                    Напишите нам в WhatsApp
+                </div>
+                <div class="logo-block d-block">
+                    <h5>+7 383 291 92 86</h5>
+                    <a href="#"><p>форма обратной связи</p></a>
+                </div>
             </div>
         </div>
 
         <div class="catalog d-flex justify-content-between">
-            <button class="btn-primary"><img src="image/catalog-btn.png" alt="">Каталог</button>
+            <button class="btn-primary"><img src="image/catalog-btn.png" alt="">
+                <div class="button-text">Каталог</div>
+            </button>
             <div class="input-group">
                 <input type="text" class="form-control" placeholder="Поиск по наименованию или артикулу"
                        aria-label="Username" aria-describedby="input-group-right">
-                <button class="btn-primary" id="input-group-right-example">Найти</button>
+                <button class="btn-primary" id="input-group-right-example"><img src="image/search.png" alt="">
+                    <div class="button-text">Найти</div>
+                </button>
             </div>
-            <div class="catalog-nav d-flex">
+            <div class="catalog-nav">
                 <div class="catalog-info d-flex align-items-center">
                     <img src="image/enter.png" alt="">
                     Войти
@@ -132,8 +138,14 @@
         </div>
     </div>
 </div>
-<div class="container d-flex justify-content-between">
-    <div class="col-9">
+<div class="phone-menu">
+    <div class="phone-block"><img src="image/phone-home.png" alt="">Главная</div>
+    <div class="phone-block"><img src="image/phone-fav.png" alt="">Избраное</div>
+    <div class="phone-block"><img src="image/phone-cart.png" alt="">Корзина</div>
+    <div class="phone-block"><img src="image/phone-user.png" alt="">Профиль</div>
+</div>
+<div class="carousel-discount container d-flex justify-content-between">
+    <div class="col-12 col-lg-9">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -205,7 +217,7 @@
             </button>
         </div>
     </div>
-    <div class="col-3 h-100">
+    <div class="discounts  col-lg-3 h-100">
         <div class="discount margin-bottom-10px">
             Акция
             <div class="discount-row d-flex">
@@ -288,7 +300,7 @@
     <button class="btn-outline-primary">Сейчас покупают</button>
 </div>
 <div class="main container">
-    <div class="good-block col-12 col-lg-3 align-items-center">
+    <div class="good-block col-6 col-lg-3 align-items-center">
         <div class="good-image">
             <img src="image/good1.png" alt="">
         </div>
@@ -310,7 +322,7 @@
             </div>
         </div>
     </div>
-    <div class="good-block col-12 col-lg-3 align-items-center">
+    <div class="good-block col-6 col-lg-3 align-items-center">
         <div class="good-image">
             <img src="image/good2.png" alt="">
         </div>
@@ -487,14 +499,14 @@
             </div>
         </div>
         <div class="info_container">
-                <a href="#">Изменения на сайте</a>
-                <p>Недавно на сайте мы ввели
-                    очередную порцию изменений,
-                    которые, как нам кажется, должны
-                    улучшить функциональность сайта
-                    и сделать его более удобным для
-                    пользователей. Реакция посетителей
-                    не заставила себя долго ждать...</p>
+            <a href="#">Изменения на сайте</a>
+            <p>Недавно на сайте мы ввели
+                очередную порцию изменений,
+                которые, как нам кажется, должны
+                улучшить функциональность сайта
+                и сделать его более удобным для
+                пользователей. Реакция посетителей
+                не заставила себя долго ждать...</p>
         </div>
 
     </div>
@@ -555,7 +567,7 @@
 </div>
 
 <div class="footer">
-    <div class="container margin-bottom-10px d-flex justify-content-between">
+    <div class="footer-content container margin-bottom-10px d-flex justify-content-between">
         <div class="footer-block">
             <h5>КАТАЛОГ</h5>
             <p>Каталог запчастей</p>
